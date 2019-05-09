@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+
+input{
+    border-radius: 5px;
+    border-color: black;
+    border: 1px 1px;
+    width: 75%;
+    height: 125%;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+/*Classes*/
+.header{
+    height: 15vh;
+    background-color: #424249;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 40px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 30px;
+}
+.Name{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.Amount{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.Budget{
+    display: flex;
+}
+/*IDs*/
+#Pig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80px
+}
+#monExp{
+    background-color: #EFE8e1;
+    border: none;
+    width: 30vw;
+    height:20vh;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+#addBill{
+    background-color: #54D2E5;
+    border:1px;
+    width: 35vw;
+    height: 35vh;
+    padding: 30px 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#button{
+    background-color:#424249;
+    width: 100%;
+    height: 8vh;
+    border:none;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+}
+#button:hover{
+    background-color: #EFE8e1;
+    color: #424249;
+}
+#Rob{
+    font-family: 'Roboto', sans-serif;
+}
